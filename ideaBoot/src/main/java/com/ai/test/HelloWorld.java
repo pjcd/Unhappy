@@ -17,4 +17,10 @@ class HelloWorld {
     public String hello() {
         return "你好我是你大哥";
     }
+
+    @ResponseBody
+    @RequestMapping(value = "/add")
+    public String add() {
+        return "git测试";
+    }
 }
